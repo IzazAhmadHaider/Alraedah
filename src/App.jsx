@@ -11,7 +11,7 @@ function App() {
   return (
     <>
     <Router>
-     <div className="flex w-full  bg-[#fff] h-[5rem] shadow-sm">
+     <div className="flex w-[100%]  bg-[#f5f5f6] h-[5rem] shadow-sm">
           <Navbar />
         </div>
    

@@ -1,3 +1,4 @@
+import { IconCalculator } from "@tabler/icons-react";
 import React from "react";
 
 function FinanceCalculator() {
@@ -28,8 +29,8 @@ function FinanceCalculator() {
         </div>
 
         <div>
-          <button className="text-[#2a6fca] border-2 border-[#2a6fca] rounded-full py-3 px-5 items-center ">
-            Calculate
+          <button className="text-[#2a6fca] border-2 border-[#2a6fca] rounded-full py-3 px-5 items-center flex space-x-3">
+           <span> Calculate </span><span><IconCalculator/></span>
           </button>
         </div>
       </div>
